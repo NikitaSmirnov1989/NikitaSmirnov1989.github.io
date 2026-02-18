@@ -1,46 +1,37 @@
-# Getting Started with Create React App
+# Foobar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ссылка не тестовое задание ООО «Экосистема Альфа» находится https://docs.google.com/document/d/1zLZEYZmkQfajgKZMl20QY6Od3GpP99JGwUwD-prP8vI/edit?tab=t.0
 
-## Available Scripts
+## Запуск приложения
 
-In the project directory, you can run:
+Приложение было создано при помощи команды:
 
-### `npm start`
+```bash
+npx create-react-app --template typescript [имя приложения]
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+После скачивания приложения с GitHub запуск производится:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+npm run start
+```
 
-### `npm test`
+## Что использовалось/уточнения ?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. React (CRA)
+2. TypeScript
+3. React-Router-Dom
+4. Redux-Toolkit
+5. Lodash
+6. Skeleton
+7. Стилизацию под маленькие разрешения я не делал
+8. При посещении  адреса "/" идет сразу же перенаправление на адрес "/products"
+9. Данные приходят сразу же из Redux-Toolkit. Предложенные Api не используются.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Ссылка на репозиторий и GitHub pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ссылка на репозиторий => https://github.com/NikitaSmirnov1989/NikitaSmirnov1989.github.io
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ссылка на GitHub Pages => https://nikitasmirnov1989.github.io
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
