@@ -1,0 +1,11 @@
+.inputField {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-height: 50px;
+    text-align: left;
+}
+
+.input_error {
+    color: red;
+}

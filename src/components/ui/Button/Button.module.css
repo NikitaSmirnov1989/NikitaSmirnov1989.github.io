@@ -1,0 +1,13 @@
+.button {
+    background: transparent;
+}
+
+.button_icon, .button_modal {
+    outline: none;
+    border: none;
+}
+
+.button:disabled:hover {
+    cursor: not-allowed;
+}
+

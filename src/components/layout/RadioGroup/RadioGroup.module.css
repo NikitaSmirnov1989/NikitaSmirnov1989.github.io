@@ -1,0 +1,23 @@
+.radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio_group {
+    
+}
+
+.radio_group > div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: auto;
+}
+
+.radio_group input {
+    margin: 0px;
+}
+
+.radio_group label {
+    margin: 0px;
+}

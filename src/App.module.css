@@ -1,0 +1,11 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.app_content {
+    flex-grow: 1;
+    width: 60%;
+    margin: 0px auto;
+}

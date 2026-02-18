@@ -1,0 +1,24 @@
+.header {
+    padding: 50px 0;
+    background-color: var(--background-color);
+    text-align: center;
+    color: white;
+}
+
+.nav_list {
+    list-style: none;
+    /* width: 60%; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.nav_item a{
+    color: white;
+    font-size: 20px;
+}
+
+a.active{
+    color: black;
+}

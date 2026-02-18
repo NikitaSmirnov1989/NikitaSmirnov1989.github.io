@@ -1,0 +1,10 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7px;
+}
+
+.active {
+    background: rgba(0, 0, 0, .125);
+}

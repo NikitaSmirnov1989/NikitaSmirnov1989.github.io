@@ -1,0 +1,11 @@
+.createProduct {
+    width: 100%;
+}
+
+.form {
+    width: 60%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
